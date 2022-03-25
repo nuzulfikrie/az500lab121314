@@ -39,3 +39,24 @@ Parameter | value
 |Resource group |  Resource group name|
 |Name  | any valid, globally unique name |
 |Region | (US) East US |
+
+or you can create in powershell using command ```az monitor log-analytics workspace create -g RGNAME -n workspacename```
+
+
+### 3 Enable the Log Analytics virtual machine extension
+
+In this task, you will enable the Log Analytics virtual machine extension. This extension installs the Log Analytics agent on Windows and Linux virtual machines. This agent collects data from the virtual machine and transfers it to the Log Analytics workspace that you designate. Once the agent is installed it will be automatically upgraded ensuring you always have the latest features and fixes.
+
+1.In the Azure portal, navigate back to the Log Analytics workspaces blade, and, in the list of workspaces, click the entry representing the workspace you created in the previous task.
+
+2.On the Log Analytics workspace blade, on the Overview page, in the Connect a Data Source section, click the Azure Virtual machines (VMs) entry.
+
+```
+Note: For the agent to be successfully installed, the virtual machine must be running.
+```
+
+3-In the list of virtual machines, locate the entry representing the Azure VM *YOUR VM* you deployed in the first task of this exercise and note that it is listed as *Not connected*.
+```
+  Click the myVM entry and then, on the myVM blade, click Connect.
+  Wait for the virtual machine to connect to the Log Analytics workspace.
+```
