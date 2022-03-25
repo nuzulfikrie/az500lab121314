@@ -54,10 +54,12 @@ In this exercise, you will complete the following tasks:
 
 1. In the Azure portal, navigate back to the Microsoft Defender for **Cloud | Overview** blade.
    On the Microsoft Defender for **Cloud | Overview** blade, review the Secure Score tile.
+![image](https://user-images.githubusercontent.com/5245744/160163379-87f22ff4-6b67-4c96-9aa1-0487ca64430b.png)
 
         > Note: Record the current score if it is available. 100%
 
 2. Navigate back to the Microsoft Defender for Cloud | Overview blade, select Assessed resources.
+![image](https://user-images.githubusercontent.com/5245744/160163418-09e369c5-582b-491b-a49c-5f229375767d.png)
 
     On the Inventory blade, select the myVM entry.
 
@@ -68,6 +70,7 @@ In this exercise, you will complete the following tasks:
 ## Task 3: Implement the Microsoft Defender for Cloud recommendation to enable Just in time VM Access
 
 In this task, you will implement the Microsoft Defender for Cloud recommendation to enable Just in time VM Access on the virtual machine.
+![image](https://user-images.githubusercontent.com/5245744/160163549-670b14e4-dece-4804-b578-75776a5b6fc9.png)
 
 1. In the Azure portal, navigate back to the Microsoft Defender for Cloud | Overview blade and select the Workload protections under Cloud Security tile.
 
