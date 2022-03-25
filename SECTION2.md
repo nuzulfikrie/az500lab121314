@@ -18,6 +18,7 @@
 
 
 5. **Deselect the Information checkbox**, leaving the Error and Warning check boxes selected.
+![image](https://user-images.githubusercontent.com/5245744/160147844-d0140caa-d041-4bb1-9f68-bc0bd21a0f3a.png)
 
 6. Click Windows Performance Counters, click + Add performance counter, review the listing of available performance counters, and add the following ones:
 
@@ -25,9 +26,11 @@
     * Process(*)\%Processor Time
     * Event Tracing for Windows\Total Memory Usage — Non-Paged Pool
     * Event Tracing for Windows\Total Memory Usage — Paged Pool
+![image](https://user-images.githubusercontent.com/5245744/160147810-3d0b70b6-8f19-4920-a4d0-1948dfe5d0e1.png)
 
 >
 **Note**: The counters are added and configured with 60 second collection sample interval.
 
 
 7.On the Agents configuration blade, click **Apply**.
+![image](https://user-images.githubusercontent.com/5245744/160147921-06c5e0dd-2c18-4bfe-9083-e88925f24941.png)
