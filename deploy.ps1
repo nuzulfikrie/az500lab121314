@@ -1,4 +1,4 @@
 $deploymentName="FikrieDeploy"
-$resourceGroup="LAB121314"
-$password = "Samarinda123"
+$resourceGroup="your-resrource-group-name"
+$password = "your-password"
 az group deployment create -g $resourceGroup -n $deploymentName  --template-file template2.json --parameters parameters2.json --parameters "adminPassword=$password"
